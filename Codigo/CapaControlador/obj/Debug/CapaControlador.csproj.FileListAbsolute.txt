@@ -1,0 +1,6 @@
+C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\bin\Debug\CapaControlador.dll
+C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\bin\Debug\CapaControlador.pdb
+C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\obj\Debug\CapaControlador.csproj.AssemblyReference.cache
+C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
+C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\obj\Debug\CapaControlador.dll
+C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\obj\Debug\CapaControlador.pdb

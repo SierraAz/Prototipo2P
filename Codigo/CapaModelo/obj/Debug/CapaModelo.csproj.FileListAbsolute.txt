@@ -1,0 +1,6 @@
+C:\Users\azael\source\repos\Parcial2polizas\CapaModelo\bin\Debug\CapaModelo.dll
+C:\Users\azael\source\repos\Parcial2polizas\CapaModelo\bin\Debug\CapaModelo.pdb
+C:\Users\azael\source\repos\Parcial2polizas\CapaModelo\obj\Debug\CapaModelo.csproj.AssemblyReference.cache
+C:\Users\azael\source\repos\Parcial2polizas\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\azael\source\repos\Parcial2polizas\CapaModelo\obj\Debug\CapaModelo.dll
+C:\Users\azael\source\repos\Parcial2polizas\CapaModelo\obj\Debug\CapaModelo.pdb
