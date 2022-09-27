@@ -1,0 +1,6 @@
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\bin\Debug\CapaVista.dll
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\bin\Debug\CapaVista.pdb
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.csproj.AssemblyReference.cache
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.csproj.CoreCompileInputs.cache
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.dll
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.pdb
