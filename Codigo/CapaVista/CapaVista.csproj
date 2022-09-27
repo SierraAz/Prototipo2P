@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{207666EE-F9DA-4C40-BC7B-2A8606E330A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaVista</RootNamespace>
+    <AssemblyName>CapaVista</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CapaControlador">
+      <HintPath>..\CapaControlador\bin\Debug\CapaControlador.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="empleados.Designer.cs">
+      <DependentUpon>empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio.Designer.cs">
+      <DependentUpon>inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="polizadiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="polizadiario.Designer.cs">
+      <DependentUpon>polizadiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="polizaegreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="polizaegreso.Designer.cs">
+      <DependentUpon>polizaegreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="polizaingreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="polizaingreso.Designer.cs">
+      <DependentUpon>polizaingreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="verdiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="verdiario.Designer.cs">
+      <DependentUpon>verdiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="veregreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="veregreso.Designer.cs">
+      <DependentUpon>veregreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="veringreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="veringreso.Designer.cs">
+      <DependentUpon>veringreso.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="empleados.resx">
+      <DependentUpon>empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio.resx">
+      <DependentUpon>inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="polizadiario.resx">
+      <DependentUpon>polizadiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="polizaegreso.resx">
+      <DependentUpon>polizaegreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="polizaingreso.resx">
+      <DependentUpon>polizaingreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="verdiario.resx">
+      <DependentUpon>verdiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="veregreso.resx">
+      <DependentUpon>veregreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="veringreso.resx">
+      <DependentUpon>veringreso.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
