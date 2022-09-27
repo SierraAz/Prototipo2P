@@ -55,7 +55,7 @@ namespace CapaVista
             this.ayudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(719, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1052, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -104,6 +104,7 @@ namespace CapaVista
             this.verEmpleadosToolStripMenuItem.Name = "verEmpleadosToolStripMenuItem";
             this.verEmpleadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.verEmpleadosToolStripMenuItem.Text = "Ver empleados";
+            this.verEmpleadosToolStripMenuItem.Click += new System.EventHandler(this.verEmpleadosToolStripMenuItem_Click);
             // 
             // agregarToolStripMenuItem
             // 
@@ -121,25 +122,29 @@ namespace CapaVista
             this.diarioToolStripMenuItem.Name = "diarioToolStripMenuItem";
             this.diarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.diarioToolStripMenuItem.Text = "Diario";
+            this.diarioToolStripMenuItem.Click += new System.EventHandler(this.diarioToolStripMenuItem_Click);
             // 
             // ingresoToolStripMenuItem
             // 
             this.ingresoToolStripMenuItem.Name = "ingresoToolStripMenuItem";
             this.ingresoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ingresoToolStripMenuItem.Text = "Ingreso";
+            this.ingresoToolStripMenuItem.Click += new System.EventHandler(this.ingresoToolStripMenuItem_Click);
             // 
             // egresoToolStripMenuItem
             // 
             this.egresoToolStripMenuItem.Name = "egresoToolStripMenuItem";
             this.egresoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.egresoToolStripMenuItem.Text = "Egreso";
+            this.egresoToolStripMenuItem.Click += new System.EventHandler(this.egresoToolStripMenuItem_Click);
             // 
             // inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(719, 464);
+            this.ClientSize = new System.Drawing.Size(1052, 621);
             this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "inicio";
             this.Text = "ABNER AZAEL SIERRA MADRID 0901-19-375";

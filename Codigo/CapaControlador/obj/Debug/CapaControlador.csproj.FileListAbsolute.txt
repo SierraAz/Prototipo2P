@@ -4,3 +4,6 @@ C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\obj\Debug\CapaContro
 C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
 C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\obj\Debug\CapaControlador.dll
 C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\obj\Debug\CapaControlador.pdb
+C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\bin\Debug\CapaModelo.dll
+C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\bin\Debug\CapaModelo.pdb
+C:\Users\azael\source\repos\Parcial2polizas\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete

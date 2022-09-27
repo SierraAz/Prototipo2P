@@ -4,3 +4,15 @@ C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.csproj
 C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.csproj.CoreCompileInputs.cache
 C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.dll
 C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.pdb
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\bin\Debug\CapaControlador.dll
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\bin\Debug\CapaControlador.pdb
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.empleados.resources
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.inicio.resources
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.csproj.GenerateResource.cache
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.csproj.CopyComplete
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.polizadiario.resources
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.polizaegreso.resources
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.polizaingreso.resources
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.verdiario.resources
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.veregreso.resources
+C:\Users\azael\source\repos\Parcial2polizas\CapaVista\obj\Debug\CapaVista.veringreso.resources
